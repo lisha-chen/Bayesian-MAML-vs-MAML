@@ -13,8 +13,8 @@ Matlab
 
 ## Instruction
 
-1. Data generation
-2. Experiments
+### Data generation
+### Experiments
 - Optimal population risk
 - Statistical error
 - Dominating constant in linear centroid model
