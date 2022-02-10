@@ -1,7 +1,7 @@
 # Bayesian-MAML-vs-MAML
 
 This repository contains the code to reproduce the computational experiments of the paper: 
-"Is Bayesian Model Agnostic Learning Better than Model Agnostic Learning, Provably?"
+"Is Bayesian Model Agnostic Meta Learning Better than Model Agnostic Meta Learning, Provably?"
 
 
 ## Requirement
