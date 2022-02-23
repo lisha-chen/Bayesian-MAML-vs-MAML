@@ -46,8 +46,18 @@ end
 
 ### Experiments
 - Optimal population risk
-- Statistical error
-- Dominating constant in linear centroid model
+run
+```
+linear_pop_risk.m
+```
+- Statistical error vs N or T
+run
+```
+linear_stats_N.m
+linear_stats_T.m
+plot_linear_stats_N_T.m
+```
+
 
 
 ## License
