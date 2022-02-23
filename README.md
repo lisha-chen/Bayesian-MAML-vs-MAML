@@ -5,7 +5,7 @@ This repository contains the code to reproduce the computational experiments of 
 
 
 ## Requirement
-Matlab 
+Matlab R2021a
 
 
 ##
@@ -14,6 +14,36 @@ Matlab
 ## Instruction
 
 ### Data generation
+Use the funtion:
+dataname = generate_data_trn_val(TNds)
+
+Example:
+```
+addpath('./functions/');
+addpath('./shaded_plots/');
+
+%% hyperparameters
+T = 100;
+N = 20;
+d = 1;
+s = .5;
+
+%% generate / load data
+TNds.T = T; TNds.N = N; TNds.d = d; TNds.s = s;
+dataname = get_dataname(TNds);
+
+filename = ['./data/', dataname, '.mat'];
+
+if exist(filename, 'file')
+    load(filename);
+    disp(['load data from ', filename]);
+else
+    dataname = generate_data_trn_val(TNds);
+    load(filename);
+    disp(['generate and save data ', filename]);
+end
+```
+
 ### Experiments
 - Optimal population risk
 - Statistical error
