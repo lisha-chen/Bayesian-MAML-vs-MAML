@@ -45,12 +45,12 @@ end
 ```
 
 ### Experiments
-- Optimal population risk
+#### Optimal population risk
 run
 ```
 linear_pop_risk.m
 ```
-- Statistical error vs N or T
+#### Statistical error vs N or T
 run
 ```
 linear_stats_N.m
